@@ -47,101 +47,101 @@ By analyzing these variables, we can identify the factors that are most likely t
 # Algorithms used for creating the ML models
 
  **Logistic Regression**
-o	Model 1.1- removed outliers
-o	Model 1.2- imputed outliers
-o	Model 1.3- After removing insignificant variables
-o	Model 1.4- After removing insignificant variables
+* Model 1.1- removed outliers
+*	Model 1.2- imputed outliers
+*	Model 1.3- After removing insignificant variables
+*	Model 1.4- After removing insignificant variables
 
 **Naive Bayes**
-o	Model 2.1- Removed Outliers
-o	Model 2.2- imputed outliers
+*	Model 2.1- Removed Outliers
+*	Model 2.2- imputed outliers
 
 **Decision Trees (with criterion as information gain)**
-o	Model 3.1- Removed outliers
-o	Models 3.2- imputed outliers
+*	Model 3.1- Removed outliers
+*	Models 3.2- imputed outliers
 
 **Decision Trees (with criterion as gini index)**
-o	Model 4.1- Removed outliers
-o	Model 4.2- Imputed outliers
+*	Model 4.1- Removed outliers
+*	Model 4.2- Imputed outliers
 
 **Random Forest **
-o	Model 5.1- Removed outliers
-o	Model 5.2- imputed outliers
+*	Model 5.1- Removed outliers
+*	Model 5.2- imputed outliers
 
 # Evaluation of various models
 The given models have been evaluated based on their confusion matrix, which provides information on the accuracy, sensitivity, specificity, and balanced accuracy of the model's predictions.
 
 **Model 1.2:**
-Accuracy: 85.29% of predictions are correct.
-Sensitivity: 99.54% of loans getting ‘not approved’ are correctly predicted. 
-Specificity: 42.36% of loan getting ‘approved’ are correctly predicted.
-Balanced Accuracy: 0.7095
+* Accuracy: 85.29% of predictions are correct.
+* Sensitivity: 99.54% of loans getting ‘not approved’ are correctly predicted. 
+* Specificity: 42.36% of loan getting ‘approved’ are correctly predicted.
+* Balanced Accuracy: 0.7095
 
 **Model 1.1:**
-Accuracy: 83.92%
-Sensitivity: 99.72%
-Specificity: 37.19%
-Balanced Accuracy: 0.6846
+* Accuracy: 83.92%
+* Sensitivity: 99.72%
+* Specificity: 37.19%
+* Balanced Accuracy: 0.6846
 
 **Model 1.3:**
-Accuracy: 83.92%
-Sensitivity: 99.72%
-Specificity: 37.19%
-Balanced Accuracy: 0.6846
+* Accuracy: 83.92%
+* Sensitivity: 99.72%
+* Specificity: 37.19%
+* Balanced Accuracy: 0.6846
 
 **Model 1.4:**
-Accuracy: 85.47%
-Sensitivity: 99.77%
-Specificity: 42.36%
-Balanced Accuracy: 0.7107
+* Accuracy: 85.47%
+* Sensitivity: 99.77%
+* Specificity: 42.36%
+* Balanced Accuracy: 0.7107
 
 **Model 2.2:**
-Accuracy: 85.99%
-Sensitivity: 100%
-Specificity: 43.75%
-Balanced Accuracy: 0.7188
+* Accuracy: 85.99%
+* Sensitivity: 100%
+* Specificity: 43.75%
+* Balanced Accuracy: 0.7188
 
 **Model 2.1:**
-Accuracy: 83.92%
-Sensitivity: 100%
-Specificity: 36.36%
-Balanced Accuracy: 0.6818
+* Accuracy: 83.92%
+* Sensitivity: 100%
+* Specificity: 36.36%
+* Balanced Accuracy: 0.6818
 
 **Model 3.2:**
-Accuracy: 86.33%
-Sensitivity: 97.24%
-Specificity: 53.47%
-Balanced Accuracy: 0.7535
+* Accuracy: 86.33%
+* Sensitivity: 97.24%
+* Specificity: 53.47%
+* Balanced Accuracy: 0.7535
 
 **Model 3.1:**
-Accuracy: 90.19%
-Sensitivity: 86.87%
-Specificity: 100%
-Balanced Accuracy: 0.9344
+* Accuracy: 90.19%
+* Sensitivity: 86.87%
+* Specificity: 100%
+* Balanced Accuracy: 0.9344
 
 **Model 4.2:**
-Accuracy: 86.33%
-Sensitivity: 97.24%
-Specificity: 53.47%
-Balanced Accuracy: 0.7535
+* Accuracy: 86.33%
+* Sensitivity: 97.24%
+* Specificity: 53.47%
+* Balanced Accuracy: 0.7535
 
 **Model 4.1:**
-Accuracy: 90.19%
-Sensitivity: 86.87%
-Specificity: 100%
-Balanced Accuracy: 0.9344
+* Accuracy: 90.19%
+* Sensitivity: 86.87%
+* Specificity: 100%
+* Balanced Accuracy: 0.9344
 
 **Model 5.2:**
-Accuracy: 85.81%
-Sensitivity: 90.55%
-Specificity: 71.53%
-Balanced Accuracy: 0.8104
+* Accuracy: 85.81%
+* Sensitivity: 90.55%
+* Specificity: 71.53%
+* Balanced Accuracy: 0.8104
 
 **Model 5.1:**
-Accuracy: 89.56%
-Sensitivity: 94.41%
-Specificity: 75.21%
-Balanced Accuracy: 0.8481
+* Accuracy: 89.56%
+* Sensitivity: 94.41%
+* Specificity: 75.21%
+* Balanced Accuracy: 0.8481
 
 # Conclusion/ Result
 Model 3.1 is the most accurate model for predicting loan defaulters, with an accuracy of 90.19%. It has a high sensitivity of 86.87% and a perfect specificity of 100%. The balanced accuracy of Model 3.1 is 0.9344, indicating its overall effectiveness in correctly predicting both approved and not approved loans.
