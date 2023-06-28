@@ -64,7 +64,7 @@ By analyzing these variables, we can identify the factors that are most likely t
 *	Model 4.1- Removed outliers
 *	Model 4.2- Imputed outliers
 
-**Random Forest **
+**Random Forest**
 *	Model 5.1- Removed outliers
 *	Model 5.2- imputed outliers
 
@@ -144,7 +144,7 @@ The given models have been evaluated based on their confusion matrix, which prov
 * Balanced Accuracy: 0.8481
 
 # Conclusion/ Result
-Model 3.1 is the most accurate model for predicting loan defaulters, with an accuracy of 90.19%. It has a high sensitivity of 86.87% and a perfect specificity of 100%. The balanced accuracy of Model 3.1 is 0.9344, indicating its overall effectiveness in correctly predicting both approved and not approved loans.
+**Model 3.1** is the most accurate model for predicting loan defaulters, with **an accuracy of 90.19%**. It has a high **sensitivity of 86.87%** and a perfect **specificity of 100%.** The balanced accuracy of **Model 3.1 is 0.9344**, indicating its overall effectiveness in correctly predicting both approved and not approved loans.
 
 
 
